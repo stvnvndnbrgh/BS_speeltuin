@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BS bandagisterie</title>
+<title>BH bandagisterie</title>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.slate.min.css">
 <link rel="stylesheet" href="bootstrap/css/custom.css">
 <script src="http://code.jquery.com/jquery.js"></script>
@@ -36,9 +36,9 @@
             <!--hoofdmenu-->
             <a class="navbar-brand" href="www.bandagisterieheverlee.be"><img class="img-circle" src="img/logo_brand.png" id="logo" alt="logo"></a>
             <ul class="nav nav-pills nav-justified">
-                <li><a href="webontwikkelaar_wat.html">Home</a></li>
-                <li><a href="webontwikkelaar_wie.html">Producten</a></li>
-                <li class="active"><a href="webontwikkelaar_portfolio.html">Contact</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -88,13 +88,13 @@
                                     <td>Vrijdag</td>
                                     <td>10:00 - 18:00</td>
                                 </tr>
-                                <tr class="info">
+                                <tr class="active">
                                     <td>Zaterdag</td>
                                     <td>10:00 - 14:00</td>
                                 </tr>
-                                <tr class="success">
-                                    <td>Zondag</td>
-                                    <td>9:00 - 13:00</td>
+                                <tr class="active">
+                                    <td><span class="glyphicon glyphicon-star"></span> Zondag</td>
+                                    <td>9:00 - 13:00<span class=" pull-right glyphicon glyphicon-star "></span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -114,21 +114,6 @@
                         </div>
                     </div>
                 </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h1>Visie:</h1>
-                            <h3>Als medische zorgverstrekker, bandagiste en rolwagen verstrekker Leuven,
-                                willen wij graag dat onze klanten zich comfortabel voelen bij ons. Iedereen 
-                                mag steeds vrijblijvend binnen komen, er is altijd een bandagist aanwezig.</h3>
-                            <h3> We beschikken over een ruime consultatie ruimte en een aparte paskamer.</h3>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
         <div class="container">
@@ -176,7 +161,8 @@
         </div>
     </section>
 
-    <footer style="height:100px" class="foot01"></footer>
+    <footer style="height:100px" id="foot01" class="container text-center"></footer>
+    
 <script>
 function initMap() {
   var myLatLng = {lat: 50.862547, lng: 4.695413};
@@ -194,8 +180,7 @@ function initMap() {
   });
 }
 </script>
-<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBTVsc6DEIEeCdo1xJlaw4btYdLUqTSlY8&callback=initMap">
-</script>
-</body>
-    <script src="bootstrap/js/custom.js"></script>
+<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBTVsc6DEIEeCdo1xJlaw4btYdLUqTSlY8&callback=initMap"></script>
+<script src="bootstrap/js/custom.js"></script>
+</body> 
 </html>
