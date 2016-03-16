@@ -67,3 +67,7 @@ a.navbar-brand{
     height: 500px;
     background-image: url(img/background.jpg);
 }
+#star_right {
+    position: relative;
+    top: 6px;
+}
