@@ -55,8 +55,7 @@ a.navbar-brand{
     padding-bottom: 0;
     margin-bottom: 0;
 }
-#foot01{}
-#nav01{}
+
 #map {
     height: 100%;
 }
@@ -70,4 +69,7 @@ a.navbar-brand{
 #star_right {
     position: relative;
     top: 6px;
+}
+footer {
+
 }

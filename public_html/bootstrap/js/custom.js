@@ -16,3 +16,21 @@ document.getElementById("nav01").innerHTML =
             "</ul>"+
         "</div>"+
     "</nav>";
+    
+function initMap() {
+  var myLatLng = {lat: 50.862547, lng: 4.695413};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: myLatLng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Bandagisterie Heverlee'
+  });
+}
+ 
